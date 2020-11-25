@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/soylent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="5dp"
+        android:text="UNKNOWN3"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/unknown2"
+        app:layout_constraintTop_toBottomOf="@+id/facts"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/facts"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="5dp"
+        android:text="Facts and Logic"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/soylent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/portrait"
+        app:layout_constraintTop_toBottomOf="@+id/wish"
+        app:layout_constraintVertical_weight="1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="365dp"
+        android:layout_height="232dp"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        app:layout_constraintBottom_toTopOf="@+id/fantastic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/it1" />
+
+    <Button
+        android:id="@+id/fantastic"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:text="Fantastic"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/dang"
+        app:layout_constraintEnd_toStartOf="@+id/awesome"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/awesome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Awesome"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/no"
+        app:layout_constraintEnd_toStartOf="@+id/absolutely"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fantastic"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/absolutely"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="5dp"
+        android:text="Absolutely"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/sigh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/awesome"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/dang"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:text="Dang it"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/well"
+        app:layout_constraintEnd_toStartOf="@+id/no"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fantastic"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="No"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/maybe"
+        app:layout_constraintEnd_toStartOf="@+id/sigh"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dang"
+        app:layout_constraintTop_toBottomOf="@+id/awesome"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/sigh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="5dp"
+        android:text="{Sigh}"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/thinkAboutIt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/no"
+        app:layout_constraintTop_toBottomOf="@+id/absolutely"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/well"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:text="Well "
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/handsome"
+        app:layout_constraintEnd_toStartOf="@+id/maybe"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dang"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/maybe"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Maybe"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/tall"
+        app:layout_constraintEnd_toStartOf="@+id/thinkAboutIt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/well"
+        app:layout_constraintTop_toBottomOf="@+id/no"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/thinkAboutIt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="5dp"
+        android:text="I'll think about it"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/wish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/maybe"
+        app:layout_constraintTop_toBottomOf="@+id/sigh"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/handsome"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:text="EXTREMELY handsome"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/velocity"
+        app:layout_constraintEnd_toStartOf="@+id/tall"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/well"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/tall"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Taller then Average"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/portrait"
+        app:layout_constraintEnd_toStartOf="@+id/wish"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/handsome"
+        app:layout_constraintTop_toBottomOf="@+id/maybe"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/wish"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="5dp"
+        android:text="I'm pretty great"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/facts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tall"
+        app:layout_constraintTop_toBottomOf="@+id/thinkAboutIt"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/velocity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:text="Square of velocity"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/unknown1"
+        app:layout_constraintEnd_toStartOf="@+id/portrait"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/handsome"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/unknown1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:text="unknown1"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/unknown2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/velocity"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/portrait"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Shoes of Champions"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/unknown2"
+        app:layout_constraintEnd_toStartOf="@+id/facts"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/velocity"
+        app:layout_constraintTop_toBottomOf="@+id/tall"
+        app:layout_constraintVertical_weight="1" />
+
+    <Button
+        android:id="@+id/unknown2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="unknown2"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/soylent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/unknown1"
+        app:layout_constraintTop_toBottomOf="@+id/portrait"
+        app:layout_constraintVertical_weight="1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
