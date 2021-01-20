@@ -7,16 +7,16 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/soylent"
+        android:id="@+id/techSupport"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginRight="5dp"
-        android:text="UNKNOWN3"
+        android:text="Off then On Again"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/unknown2"
+        app:layout_constraintStart_toEndOf="@+id/sucks"
         app:layout_constraintTop_toBottomOf="@+id/facts"
         app:layout_constraintVertical_weight="1" />
 
@@ -27,7 +27,7 @@
         android:layout_marginRight="5dp"
         android:text="Facts and Logic"
         android:textSize="13sp"
-        app:layout_constraintBottom_toTopOf="@+id/soylent"
+        app:layout_constraintBottom_toTopOf="@+id/techSupport"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/portrait"
@@ -123,7 +123,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginRight="5dp"
-        android:text="{Sigh}"
+        android:text="Angry Exhale"
         android:textSize="13sp"
         app:layout_constraintBottom_toTopOf="@+id/thinkAboutIt"
         app:layout_constraintEnd_toEndOf="parent"
@@ -225,7 +225,7 @@
         android:layout_marginLeft="5dp"
         android:text="Square of velocity"
         android:textSize="13sp"
-        app:layout_constraintBottom_toTopOf="@+id/unknown1"
+        app:layout_constraintBottom_toTopOf="@+id/everyDay"
         app:layout_constraintEnd_toStartOf="@+id/portrait"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -233,14 +233,14 @@
         app:layout_constraintVertical_weight="1" />
 
     <Button
-        android:id="@+id/unknown1"
+        android:id="@+id/everyDay"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="5dp"
-        android:text="unknown1"
+        android:text="Every day that ends in Y"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/unknown2"
+        app:layout_constraintEnd_toStartOf="@+id/sucks"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/velocity"
@@ -254,7 +254,7 @@
         android:layout_marginRight="5dp"
         android:text="Shoes of Champions"
         android:textSize="13sp"
-        app:layout_constraintBottom_toTopOf="@+id/unknown2"
+        app:layout_constraintBottom_toTopOf="@+id/sucks"
         app:layout_constraintEnd_toStartOf="@+id/facts"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/velocity"
@@ -262,17 +262,17 @@
         app:layout_constraintVertical_weight="1" />
 
     <Button
-        android:id="@+id/unknown2"
+        android:id="@+id/sucks"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:text="unknown2"
+        android:text="sucks to suck"
         android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/soylent"
+        app:layout_constraintEnd_toStartOf="@+id/techSupport"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/unknown1"
+        app:layout_constraintStart_toEndOf="@+id/everyDay"
         app:layout_constraintTop_toBottomOf="@+id/portrait"
         app:layout_constraintVertical_weight="1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
